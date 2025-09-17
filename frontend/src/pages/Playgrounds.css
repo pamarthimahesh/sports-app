@@ -1,0 +1,55 @@
+.playgrounds-page {
+  padding: 20px;
+}
+
+.sport-type {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  border-bottom: 2px solid #6a0dad;
+  padding-bottom: 10px;
+}
+
+.grounds-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.playground-card {
+  border: 2px solid #6a0dad;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.playground-card:hover {
+  transform: translateY(-5px);
+  border-color: #9b59b6;
+}
+
+.playground-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.details-btn {
+  margin-top: 10px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-btn:hover {
+  background-color: #9b59b6;
+}
+
+.error-msg {
+  color: crimson;
+  font-weight: bold;
+}

@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  /* background-color: #121212; */
+  /* background-image: url("C:\sports-app\sports-smart-booking\frontend\src\pages\main_img.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+.home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overlay {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  text-decoration: none;
+  background: #00e676;
+  color: black;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00c853;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #00e676;
+  color: #00e676;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 30px;
+  background: #111;
+}
+
+.feature-card {
+  max-width: 300px;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}

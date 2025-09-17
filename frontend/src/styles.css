@@ -1,0 +1,54 @@
+/* Global font + layout */
+body {
+  font-family: 'Inter', system-ui, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+
+/* Main container */
+.app-container {
+  padding: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Navigation buttons */
+nav {
+  display: flex;
+  gap: 8px;
+}
+
+nav button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease-in-out;
+}
+
+nav button:hover {
+  background: #530a9e;
+}
+
+/* Main content */
+main {
+  margin-top: 16px;
+}
